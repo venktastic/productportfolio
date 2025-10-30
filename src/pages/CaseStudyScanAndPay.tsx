@@ -46,6 +46,14 @@ const CaseStudyScanAndPay = () => {
             The core promise of our health insurance product is <strong>cashless service</strong>. However, a significant portion of our services, specifically <strong>X% of in-clinic consultations</strong>, were conducted through non-network hospitals. These providers could not offer our credit line, forcing us into complex workarounds that destroyed the customer experience and burdened our operations.
           </p>
 
+          <div className="my-8 flex justify-center">
+            <img 
+              src="/placeholder.svg" 
+              alt="Cashless Payment Challenge Diagram" 
+              className="rounded-lg shadow-md border border-border w-full max-w-3xl"
+            />
+          </div>
+
           <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">The Painful Status Quo</h3>
           <p className="text-foreground/90 mb-4">
             Prior to the <strong>Scan and Pay</strong> initiative, we were facing three critical issues that led to terrible UX and high operational costs:
@@ -88,6 +96,14 @@ const CaseStudyScanAndPay = () => {
           <p className="text-foreground/90 mb-6">
             I led the development of an intuitive in-app feature that allowed users to scan the hospital's QR code directly, with the payment being processed through their insurance credit line—transparently and within the critical 90-second window.
           </p>
+          
+          <div className="my-8 flex justify-center">
+            <img 
+              src="/placeholder2.svg" 
+              alt="Scan and Pay Feature Interface" 
+              className="rounded-lg shadow-md border border-border w-full max-w-3xl"
+            />
+          </div>
 
           <h3 className="text-xl font-semibold text-foreground mb-4">Core Features</h3>
           <ul className="space-y-3 text-foreground/90 mb-8">

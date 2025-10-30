@@ -22,14 +22,14 @@ const Index = () => {
                 Venkatesh Murthy N S
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/90 mb-6">
-                Product Manager & Full Stack Developer
+                Product Manager
               </p>
               <p className="text-lg text-primary-foreground/80 max-w-2xl">
-                Building impactful products that solve real problems and deliver measurable results
+                Product Manager crafting solutions through empathy, data, and attention to detail across AI Safety Tech, Healthcare, Sports Technology, and IoT Telematics.
               </p>
               <div className="flex gap-4 mt-6 justify-center md:justify-start">
                 <a 
-                  href="https://linkedin.com/in/yourprofile" 
+                  href="https://linkedin.com/in/iamvenky" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
@@ -38,7 +38,7 @@ const Index = () => {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/venktastic" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
@@ -47,7 +47,7 @@ const Index = () => {
                   <Github className="w-5 h-5" />
                 </a>
                 <a 
-                  href="mailto:your.email@example.com"
+                  href="mailto:venky890@gmail.com"
                   className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-colors"
                   aria-label="Email"
                 >
@@ -65,32 +65,47 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">About Me</h2>
           <div className="prose prose-lg max-w-none text-muted-foreground">
             <p className="text-lg leading-relaxed mb-6">
-              I'm a Product Manager and Full Stack Developer with a passion for creating products that make a real difference. 
-              With experience across healthcare tech, fintech, and SaaS platforms, I specialize in identifying user pain points 
-              and translating them into elegant, scalable solutions.
-            </p>
+              I'm a Product Manager with 7 years of experience building 0-to-1  products across AI Safety, Healthcare and Insurance, Sports Tech, and IoT. I specialise in translating complex technical requirements into clear product strategies that drive measurable business impact.
+
+</p>
+
             <p className="text-lg leading-relaxed mb-6">
-              My approach combines deep technical knowledge with strong product thinking. I believe the best products are built 
-              when engineering excellence meets genuine user empathy. Whether I'm defining product strategy, designing user 
-              experiences, or writing code, my focus is always on delivering measurable impact.
+
+My approach combines deep user empathy with  data analysis and attention to detail. From developing Safety tech workflows with AI to streamlining healthcare workflows, I've consistently delivered products that solve real problems and create value.
+
+</p>
+
+            <p className="text-lg leading-relaxed mb-6">
+
+I bridge the gap between technical complexity and user needs, turning intricate systems into intuitive solutions. Whether defining product roadmaps or working cross-functionally with engineering and design teams, my focus remains on shipping products that matter.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-8">
               <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-3">Product Skills</h3>
                 <ul className="space-y-2 text-base">
+                  <li>• User Research & Market Research</li>
+                  <li>• Problem Articulation & Opportunity Sizing</li>
                   <li>• Product Strategy & Roadmapping</li>
-                  <li>• User Research & Analytics</li>
-                  <li>• Agile/Scrum Methodologies</li>
                   <li>• Stakeholder Management</li>
+                  <li>• UI/UX Design</li>
+                  <li>• 0-to-1 Product Development</li>
+                  <li>• Agile/Scrum Methodologies</li>
+                  <li>• Product Analytics</li>
+                  
+                  
                 </ul>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-foreground mb-3">Technical Skills</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Domains</h3>
                 <ul className="space-y-2 text-base">
-                  <li>• React, TypeScript, Node.js</li>
-                  <li>• Python, SQL, PostgreSQL</li>
-                  <li>• AWS, Docker, Kubernetes</li>
-                  <li>• REST APIs, Microservices</li>
+                  <li>• Generative AI</li>
+                  <li>• Agentic AI</li>
+                  <li>• Prompt Engineering</li>
+                  <li>• Evaluations</li>
+                  <li>• SaaS</li>
+                  <li>• Safety Tech</li>
+                  <li>• Healthcare and Insurance</li>
+                  <li>• IoT</li>
                 </ul>
               </div>
             </div>
@@ -168,7 +183,7 @@ const Index = () => {
               className="text-lg font-medium hover:text-primary-foreground/80 transition-colors inline-flex items-center gap-2"
             >
               <Mail className="w-5 h-5" />
-              your.email@example.com
+              venky890@gmail.com
             </a>
           </div>
         </div>
@@ -179,11 +194,11 @@ const Index = () => {
         <div className="container mx-auto px-4 md:px-6 max-w-5xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2024 Venkatesh Murthy N S. All rights reserved.
+              © 2025 Venkatesh Murthy N S. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://linkedin.com/in/yourprofile" 
+                href="https://linkedin.com/in/iamvenky" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -192,7 +207,7 @@ const Index = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/venktastic" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -201,7 +216,7 @@ const Index = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:your.email@example.com"
+                href="mailto:venky890@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >

@@ -1,58 +1,65 @@
-# Welcome to your Lovable project
+# Product Portfolio (Vite + React + Tailwind)
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/a250e714-70c1-45ff-9906-239548fd0a46
+This is a product portfolio website built with Vite, React, TypeScript, and Tailwind CSS. Recent updates include:
 
-## How can I edit this code?
+- Updated theme colors to a deep slate blue (`#0C182F`) with complementary accents.
+- Added placeholder images in the Case Study page for visual context.
+- Streamlined asset handling using `public/` for static files and `src/assets/` for imports.
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+Prerequisites:
+- Node.js and npm installed (recommended via nvm).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a250e714-70c1-45ff-9906-239548fd0a46) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+Setup and run:
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server (HMR enabled)
 npm run dev
+# Open http://localhost:8080/
+
+# Build for production
+npm run build
+
+# Preview the production build locally
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `public/` – static files served at the site root (e.g., `/placeholder.svg`).
+- `src/index.css` – global styles and theme variables.
+- `src/pages/CaseStudyScanAndPay.tsx` – case study content and images.
+- `src/assets/` – images imported via modules (e.g., profile photo).
 
-**Use GitHub Codespaces**
+## Theme & Styling
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Colors are defined as CSS variables in `src/index.css` under `:root`.
+- Primary theme updated to deep slate blue (`#0C182F`).
+- To change theme colors, edit variables such as `--primary`, `--primary-light`, `--primary-dark`, and `--accent`.
 
-## What technologies are used for this project?
+## Images
 
-This project is built with:
+- Placeholder images are located in `public/placeholder.svg` and `public/placeholder2.svg`.
+- Case Study uses placeholder images added in `src/pages/CaseStudyScanAndPay.tsx`.
+- Use `public/` for files referenced by path (e.g., `src="/image.png"`).
+- Use `src/assets/` for module imports:
+  - `import img from '@/assets/my-image.jpg'`
+  - `<img src={img} alt="..." />`
+- Profile photo lives at `src/assets/profile-photo.jpg` (replace with your image as needed).
+
+## Scripts
+
+- `dev` – start Vite dev server.
+- `build` – create production build.
+- `preview` – serve the production build locally.
+- `lint` – run ESLint.
+
+## Tech Stack
 
 - Vite
 - TypeScript
@@ -60,14 +67,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Notes
 
-Simply open [Lovable](https://lovable.dev/projects/a250e714-70c1-45ff-9906-239548fd0a46) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Stop the dev server with `Ctrl+C` in the terminal.
+- Static assets in `public/` are available at the site root (e.g., `/favicon.ico`).
