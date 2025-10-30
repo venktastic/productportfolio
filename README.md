@@ -1,4 +1,4 @@
-# Product Portfolio (Vite + React + Tailwind)
+# Product Portfolio 
 
 ## Overview
 
@@ -69,5 +69,4 @@ npm run preview
 
 ## Notes
 
-- Stop the dev server with `Ctrl+C` in the terminal.
 - Static assets in `public/` are available at the site root (e.g., `/favicon.ico`).
